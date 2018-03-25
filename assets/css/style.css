@@ -1,10 +1,8 @@
 header {
     background-color: #ffffff;
-    padding: 30px, 0px;
     border-bottom: 1px solid #cccccc;
     position: absolute;
     width: 100%;
-    height: auto;
     top: 0px;
     left: 0px;
 }
@@ -15,7 +13,7 @@ nav {
 }
     
 h1 {
-    background-color: #4aaaa5;
+    background-color: #cc99cc;
     color: #ffffff;
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -39,6 +37,7 @@ a {
 }
 
 body {
+    background-image: url("../images/sakura.png");
     padding-top: 120px;
     width: 960px;
     height: 100%;
@@ -46,7 +45,7 @@ body {
 }
 
 h2 {
-    color: #4aaaa5;
+    color: #cc99cc;
     font-size: 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -54,7 +53,7 @@ h2 {
     border-bottom: 3px solid #dddddd;
     max-width: 960px;    
     padding-bottom: 30px;
-} 
+}
 
 section {
     border: 1px solid #dddddd;
@@ -62,7 +61,8 @@ section {
     width: 960px;
     height: 100%;
     min-height: 100%;
-    position: relative; 
+    position: relative;
+    background-color: #ffffff;
 }
 
 #content {
@@ -88,8 +88,8 @@ footer {
     margin: auto;
     text-align: center;
     background-color: #777777;
-    border-top: 8px solid #4aaaa5;
-    padding: 40px 10px 10px 10px;
+    border-top: 8px solid #cc99cc;
+    padding: 40px 00px 10px 0px;
     width: 100%;
     position: absolute;
     bottom: -300px;
